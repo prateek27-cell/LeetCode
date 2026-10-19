@@ -15,4 +15,8 @@ This repository contains my solutions to various LeetCode problems as part of my
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/prateek27-cell/LeetCode/tree/master/0020-valid-parentheses) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/prateek27-cell/LeetCode/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
