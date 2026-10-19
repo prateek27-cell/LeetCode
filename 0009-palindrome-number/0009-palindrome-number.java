@@ -1,12 +1,16 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        int original=x;
-        int digit=0;
-        while(x>0){
-            int rem=x%10;
-            digit=digit*10+rem;
-            x/=10;
+        if(x<0){
+            return false;
         }
-        return original == digit;
+        int x_copy= x;
+        int pal=0;
+        while(x_copy!=0){
+            pal=(pal*10)+(x_copy%10);
+            x_copy=x_copy/10;
+        }
+        // System.out.println(pal);
+        return pal==x; 
     }
+
 }
